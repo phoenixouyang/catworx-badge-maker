@@ -12,3 +12,4 @@ C:\Users\isaawong\documents\phoenix\dev\CatWorx.BadgeMaker\obj\Debug\net8.0\refi
 C:\Users\isaawong\documents\phoenix\dev\CatWorx.BadgeMaker\obj\Debug\net8.0\CatWorx.BadgeMaker.pdb
 C:\Users\isaawong\documents\phoenix\dev\CatWorx.BadgeMaker\obj\Debug\net8.0\CatWorx.BadgeMaker.genruntimeconfig.cache
 C:\Users\isaawong\documents\phoenix\dev\CatWorx.BadgeMaker\obj\Debug\net8.0\ref\CatWorx.BadgeMaker.dll
+C:\Users\isaawong\documents\phoenix\dev\CatWorx.BadgeMaker\obj\Debug\net8.0\CatWorx.BadgeMaker.sourcelink.json
