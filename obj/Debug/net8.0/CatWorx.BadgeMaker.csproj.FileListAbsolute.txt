@@ -1,0 +1,14 @@
+C:\Users\isaawong\documents\phoenix\dev\CatWorx.BadgeMaker\bin\Debug\net8.0\CatWorx.BadgeMaker.exe
+C:\Users\isaawong\documents\phoenix\dev\CatWorx.BadgeMaker\bin\Debug\net8.0\CatWorx.BadgeMaker.deps.json
+C:\Users\isaawong\documents\phoenix\dev\CatWorx.BadgeMaker\bin\Debug\net8.0\CatWorx.BadgeMaker.runtimeconfig.json
+C:\Users\isaawong\documents\phoenix\dev\CatWorx.BadgeMaker\bin\Debug\net8.0\CatWorx.BadgeMaker.dll
+C:\Users\isaawong\documents\phoenix\dev\CatWorx.BadgeMaker\bin\Debug\net8.0\CatWorx.BadgeMaker.pdb
+C:\Users\isaawong\documents\phoenix\dev\CatWorx.BadgeMaker\obj\Debug\net8.0\CatWorx.BadgeMaker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\isaawong\documents\phoenix\dev\CatWorx.BadgeMaker\obj\Debug\net8.0\CatWorx.BadgeMaker.AssemblyInfoInputs.cache
+C:\Users\isaawong\documents\phoenix\dev\CatWorx.BadgeMaker\obj\Debug\net8.0\CatWorx.BadgeMaker.AssemblyInfo.cs
+C:\Users\isaawong\documents\phoenix\dev\CatWorx.BadgeMaker\obj\Debug\net8.0\CatWorx.BadgeMaker.csproj.CoreCompileInputs.cache
+C:\Users\isaawong\documents\phoenix\dev\CatWorx.BadgeMaker\obj\Debug\net8.0\CatWorx.BadgeMaker.dll
+C:\Users\isaawong\documents\phoenix\dev\CatWorx.BadgeMaker\obj\Debug\net8.0\refint\CatWorx.BadgeMaker.dll
+C:\Users\isaawong\documents\phoenix\dev\CatWorx.BadgeMaker\obj\Debug\net8.0\CatWorx.BadgeMaker.pdb
+C:\Users\isaawong\documents\phoenix\dev\CatWorx.BadgeMaker\obj\Debug\net8.0\CatWorx.BadgeMaker.genruntimeconfig.cache
+C:\Users\isaawong\documents\phoenix\dev\CatWorx.BadgeMaker\obj\Debug\net8.0\ref\CatWorx.BadgeMaker.dll
