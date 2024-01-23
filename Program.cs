@@ -10,32 +10,18 @@ namespace CatWorx.BadgeMaker
   {
     static void Main(string[] args)
     {
-        // Dictionary<string, int> myScoreBoard = new Dictionary<string, int>(){
-        // { "firstInning", 10 },
-        // { "secondInning", 20},
-        // { "thirdInning", 30},
-        // { "fourthInning", 40},
-        // { "fifthInning", 50}
-        // };
+       List<string> employees = new List<string>() { "adam", "amy" };
+       employees.Add("barbara");
+       employees.Add("billy");
+       Console.WriteLine("Please enter your name");
 
-
-        // string[] favFoods = new string[3]{ "pizza", "doughnuts", "ice cream" };
-        // string firstFood = favFoods[0];
-        // string secondFood = favFoods[1];
-        // string thirdFood = favFoods[2];
-        // Console.WriteLine("I like {0}, {1}, and {2}", firstFood, secondFood, thirdFood);
-        
-        List<string> employees = new List<string>() {
-            {"amy"},
-            {"adam"},
-        };
-
-        employees.Add("barb");
-        employees.Add("billy");
-
-        for (int i=0; i < employees.Count; i++) {
-            Console.WriteLine(employees[i]);
-        }
+       // receive name input from the console and assign it to a variable
+      string input = Console.ReadLine() ?? "";
+      employees.Add(input);
+      for (int i = 0; i < employees.Count; i++) 
+      {
+        Console.WriteLine(employees[i]);
+      }
     }
   }
 }
