@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\isaawong\\documents\\phoenix\\dev\\CatWorx.BadgeMaker\\CatWorx.BadgeMaker.csproj": {}
+    "c:\\Users\\isaawong\\documents\\phoenix\\dev\\CatWorx.BadgeMaker\\CatWorx.BadgeMaker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\isaawong\\documents\\phoenix\\dev\\CatWorx.BadgeMaker\\CatWorx.BadgeMaker.csproj": {
+    "c:\\Users\\isaawong\\documents\\phoenix\\dev\\CatWorx.BadgeMaker\\CatWorx.BadgeMaker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\isaawong\\documents\\phoenix\\dev\\CatWorx.BadgeMaker\\CatWorx.BadgeMaker.csproj",
+        "projectUniqueName": "c:\\Users\\isaawong\\documents\\phoenix\\dev\\CatWorx.BadgeMaker\\CatWorx.BadgeMaker.csproj",
         "projectName": "CatWorx.BadgeMaker",
-        "projectPath": "C:\\Users\\isaawong\\documents\\phoenix\\dev\\CatWorx.BadgeMaker\\CatWorx.BadgeMaker.csproj",
+        "projectPath": "c:\\Users\\isaawong\\documents\\phoenix\\dev\\CatWorx.BadgeMaker\\CatWorx.BadgeMaker.csproj",
         "packagesPath": "C:\\Users\\isaawong\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\isaawong\\documents\\phoenix\\dev\\CatWorx.BadgeMaker\\obj\\",
+        "outputPath": "c:\\Users\\isaawong\\documents\\phoenix\\dev\\CatWorx.BadgeMaker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\isaawong\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "SkiaSharp": {
+              "target": "Package",
+              "version": "[2.88.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

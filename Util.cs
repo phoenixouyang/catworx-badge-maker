@@ -1,6 +1,7 @@
 using System;
 using System.IO;
 using System.Collections.Generic;
+using SkiaSharp;
 
 namespace CatWorx.BadgeMaker
 {
@@ -35,7 +36,7 @@ namespace CatWorx.BadgeMaker
 
         public static void MakeBadges(List<Employee> employees)
         {
-            
+            SKImage newImage = SKImage.FromEncodedData(File.OpenRead("badge.png"));
         }
     }
 }
