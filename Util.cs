@@ -54,6 +54,8 @@ namespace CatWorx.BadgeMaker
 
             int EMPLOYEE_NAME_Y = 600;
 
+            int EMPLOYEE_ID_Y = 730;
+
             using (HttpClient client = new HttpClient())
             {
                 for (int i = 0; i < employees.Count; i++)
@@ -83,6 +85,9 @@ namespace CatWorx.BadgeMaker
                     // writes employee name in black
                     paint.Color = SKColors.Black;
                     canvas.DrawText(employees[i].GetFullName(), BADGE_WIDTH/2f, EMPLOYEE_NAME_Y, paint);
+
+                    paint.Typeface = SKTypeface.FromFamilyName("Courier New");
+                    canvas.DrawText(employees[i].GetId().ToString(), BADGE_WIDTH / 2f, EMPLOYEE_ID_Y, paint);
 
                     SKImage finalImage = SKImage.FromBitmap(badge);
                     SKData data = finalImage.Encode();
