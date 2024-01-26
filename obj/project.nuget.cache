@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4p+7NNmklI1ggeILz1lvYNyuVKkW0XCaZYioklpGPyyTiQtDQGHfRWtkhnrpNbNwoi8j2gEh0ZeA5kfl5mpZYQ==",
+  "dgSpecHash": "/ZSyV+ID4b1sRMtlfAT8cXl/Gh5/2DOlHw5KRFrEiN8BPl3a33KCIwo3LjQnLzafjfpSY8BULqa2XVkg7XUMGA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\isaawong\\documents\\phoenix\\dev\\CatWorx.BadgeMaker\\CatWorx.BadgeMaker.csproj",
+  "projectFilePath": "C:\\Users\\isaawong\\documents\\phoenix\\dev\\CatWorx.BadgeMaker\\CatWorx.BadgeMaker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\isaawong\\.nuget\\packages\\skiasharp\\2.88.7\\skiasharp.2.88.7.nupkg.sha512",
     "C:\\Users\\isaawong\\.nuget\\packages\\skiasharp.nativeassets.macos\\2.88.7\\skiasharp.nativeassets.macos.2.88.7.nupkg.sha512",
