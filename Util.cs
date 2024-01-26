@@ -86,12 +86,15 @@ namespace CatWorx.BadgeMaker
                     paint.Color = SKColors.Black;
                     canvas.DrawText(employees[i].GetFullName(), BADGE_WIDTH/2f, EMPLOYEE_NAME_Y, paint);
 
+                    // writes employee id to canvas
                     paint.Typeface = SKTypeface.FromFamilyName("Courier New");
                     canvas.DrawText(employees[i].GetId().ToString(), BADGE_WIDTH / 2f, EMPLOYEE_ID_Y, paint);
 
                     SKImage finalImage = SKImage.FromBitmap(badge);
                     SKData data = finalImage.Encode();
-                    data.SaveTo(File.OpenWrite("data/employeeBadge.png"));
+
+                    string template = "data/{0}_badge.png";
+                    data.SaveTo(File.OpenWrite(string.Format(template, employees[i].GetId())));
                 }
             }
         }
