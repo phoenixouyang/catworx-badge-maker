@@ -11,10 +11,12 @@ namespace  CatWorx.BadgeMaker
             List<Employee> employees = new List<Employee>();
             while (true)
             {
+                // terminal input to get employee information
                 Console.WriteLine("Please enter a first name: (leave empty to exit): ");
                 string firstName = Console.ReadLine() ?? "";
                 if (firstName == "")
                 {
+                    // leave blank to exit application
                     break;
                 }
 

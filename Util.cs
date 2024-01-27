@@ -42,6 +42,7 @@ namespace CatWorx.BadgeMaker
 
         async public static Task MakeBadges(List<Employee> employees)
         {
+            // define dimensions for canvas elements
             int BADGE_WIDTH = 669;
             int BADGE_HEIGHT = 1044;
 
@@ -93,6 +94,7 @@ namespace CatWorx.BadgeMaker
                     SKImage finalImage = SKImage.FromBitmap(badge);
                     SKData data = finalImage.Encode();
 
+                    // saves created canvas as a PNG using employee ID
                     string template = "data/{0}_badge.png";
                     data.SaveTo(File.OpenWrite(string.Format(template, employees[i].GetId())));
                 }
